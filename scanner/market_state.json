@@ -1,18 +1,18 @@
 {
-  "as_of": "2026-09-14T10:20:10+08:00",
-  "completed_at": "2026-09-14T10:22:45.909716+08:00",
+  "as_of": "2026-09-14T10:25:10+08:00",
+  "completed_at": "2026-09-14T10:27:42.998234+08:00",
   "counts": {
-    "deep_packet_success": 45,
+    "deep_packet_success": 44,
     "deep_requested": 45,
     "deep_rows_rejected_by_quality": 0,
     "deep_verified_k5": 30,
     "sector_rows": 36,
     "signal_event_rows": 0,
-    "snapshot_excluded_rows": 15,
+    "snapshot_excluded_rows": 14,
     "snapshot_input_rows": 1054,
     "top15_deep_rows": 15,
     "top30_rows": 30,
-    "tse_commonstock_rows": 1039
+    "tse_commonstock_rows": 1040
   },
   "coverage": {
     "deep_data_quality": "DEGRADED",
@@ -28,7 +28,7 @@
   },
   "data_quality": "GOOD",
   "execution_enabled": false,
-  "generated_at": "2026-09-14T10:20:10.949240+08:00",
+  "generated_at": "2026-09-14T10:25:11.039668+08:00",
   "history": {
     "comparable_reason": "RUN_STATUS_NOT_GOOD|RUN_DATA_QUALITY_NOT_GOOD",
     "coverage_start": null,
@@ -39,45 +39,45 @@
     "schema_version": "SCANNER_HISTORY_V1"
   },
   "market_state": {
-    "advance_ratio": 0.241578,
-    "advances": 251,
+    "advance_ratio": 0.295192,
+    "advances": 307,
     "breadth_state": "BROAD_NEGATIVE",
-    "declines": 699,
-    "equal_weight_relative_to_taiex_pct": 0.3582,
-    "equal_weight_return_pct": -0.4518,
+    "declines": 645,
+    "equal_weight_relative_to_taiex_pct": 0.359106,
+    "equal_weight_return_pct": -0.250894,
     "market_breadth_divergence": {
       "rule": "TAIEX_LEADS<=-0.5pct; EQUAL_WEIGHT_LEADS>=0.5pct; otherwise ALIGNED",
       "rule_version": "MARKET_BREADTH_DIVERGENCE_V1",
       "state": "ALIGNED",
-      "value_pct": 0.3582
+      "value_pct": 0.359106
     },
     "relative_strength_label": "INLINE",
-    "taiex_change_pct": -0.81,
-    "unchanged": 89,
-    "valid_return_count": 1039
+    "taiex_change_pct": -0.61,
+    "unchanged": 88,
+    "valid_return_count": 1040
   },
   "mode": "TEST/SHADOW",
-  "published_at": "2026-09-14T10:22:51.615343+08:00",
+  "published_at": "2026-09-14T10:27:49.364705+08:00",
   "read_only": true,
   "schema_version": "TRADINGAI_TSE_COMMONSTOCK_SCANNER_PUBLIC_V1",
   "source": "FUGLE_MARKETDATA_V1",
   "source_scan_status": "PARTIAL",
   "top15_symbols": [
-    "3029",
     "6112",
+    "3029",
     "2351",
-    "2305",
+    "3094",
+    "4961",
+    "2436",
     "3016",
-    "3229",
-    "6176",
-    "2371",
-    "2441",
+    "4915",
     "2801",
-    "3035",
-    "8103",
-    "2481",
+    "3042",
     "6706",
-    "6226"
+    "2305",
+    "6226",
+    "3229",
+    "1528"
   ],
   "universe": "TSE_COMMONSTOCK"
 }
