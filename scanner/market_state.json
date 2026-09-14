@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-09-14T11:05:10+08:00",
-  "completed_at": "2026-09-14T11:07:53.417429+08:00",
+  "as_of": "2026-09-14T11:10:10+08:00",
+  "completed_at": "2026-09-14T11:12:46.935445+08:00",
   "counts": {
     "deep_packet_success": 43,
     "deep_requested": 45,
@@ -28,7 +28,7 @@
   },
   "data_quality": "GOOD",
   "execution_enabled": false,
-  "generated_at": "2026-09-14T11:05:10.993710+08:00",
+  "generated_at": "2026-09-14T11:10:10.902692+08:00",
   "history": {
     "comparable_reason": "RUN_STATUS_NOT_GOOD|RUN_DATA_QUALITY_NOT_GOOD",
     "coverage_start": null,
@@ -39,45 +39,45 @@
     "schema_version": "SCANNER_HISTORY_V1"
   },
   "market_state": {
-    "advance_ratio": 0.329502,
-    "advances": 344,
+    "advance_ratio": 0.351533,
+    "advances": 367,
     "breadth_state": "BROAD_NEGATIVE",
-    "declines": 619,
-    "equal_weight_relative_to_taiex_pct": 0.368247,
-    "equal_weight_return_pct": -0.171753,
+    "declines": 589,
+    "equal_weight_relative_to_taiex_pct": 0.456121,
+    "equal_weight_return_pct": -0.083879,
     "market_breadth_divergence": {
       "rule": "TAIEX_LEADS<=-0.5pct; EQUAL_WEIGHT_LEADS>=0.5pct; otherwise ALIGNED",
       "rule_version": "MARKET_BREADTH_DIVERGENCE_V1",
       "state": "ALIGNED",
-      "value_pct": 0.368247
+      "value_pct": 0.456121
     },
     "relative_strength_label": "INLINE",
     "taiex_change_pct": -0.54,
-    "unchanged": 81,
+    "unchanged": 88,
     "valid_return_count": 1044
   },
   "mode": "TEST/SHADOW",
-  "published_at": "2026-09-14T11:07:59.413354+08:00",
+  "published_at": "2026-09-14T11:12:53.693585+08:00",
   "read_only": true,
   "schema_version": "TRADINGAI_TSE_COMMONSTOCK_SCANNER_PUBLIC_V1",
   "source": "FUGLE_MARKETDATA_V1",
   "source_scan_status": "PARTIAL",
   "top15_symbols": [
-    "6112",
     "3029",
-    "3016",
-    "3094",
+    "6112",
+    "6176",
+    "6689",
     "3036",
     "2603",
     "2615",
     "2481",
     "6706",
+    "6426",
     "2351",
     "2338",
     "2305",
     "6226",
-    "6426",
-    "4915"
+    "3016"
   ],
   "universe": "TSE_COMMONSTOCK"
 }
