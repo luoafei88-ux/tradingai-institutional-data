@@ -1,12 +1,18 @@
-﻿{
-    "latest_commit_sha":  "77e962f0a1fd2bebeaf4d4098c6f5a1d386c735f",
-    "as_of":  "2026-09-14",
-    "generated_at":  "2026-09-14T08:30:29.591915+00:00",
-    "rows":  1333,
-    "data_quality":  "GOOD",
-    "stale":  false,
-    "duplicate_count":  0,
-    "mixed_snapshot_count":  0,
-    "calculation_version":  "institutional_features_v2",
-    "csv_raw_path":  "institutional_scanner_features_v2.csv"
+{
+  "latest_commit_sha": "UNKNOWN",
+  "as_of": "2026-09-14",
+  "generated_at": "2026-09-15T06:49:06.420045+00:00",
+  "rows": 1333,
+  "data_quality": "GOOD",
+  "stale": false,
+  "duplicate_count": 0,
+  "mixed_snapshot_count": 0,
+  "calculation_version": "institutional_features_v2",
+  "csv_raw_path": "institutional_scanner_features_v2.csv",
+  "derived_field_definitions": {
+    "inst_net_pct_volume_5d": "sum(inst_net_shares_5d) / sum(market_traded_volume_5d) * 100",
+    "inst_net_pct_turnover_5d": "sum(daily_inst_flow_amount_5d) / sum(market_traded_value_5d) * 100",
+    "inst_Nd_avg_buy_cost": "positive daily net-flow weighted average price; not institutional book cost",
+    "flow_price_alignment_Nd": "SHADOW sign comparison of N-session institutional net flow and close return"
+  }
 }
