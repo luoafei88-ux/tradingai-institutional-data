@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-09-21T11:55:10+08:00",
-  "completed_at": "2026-09-21T11:57:44.374921+08:00",
+  "as_of": "2026-09-21T12:00:10+08:00",
+  "completed_at": "2026-09-21T12:03:04.906676+08:00",
   "counts": {
     "deep_packet_success": 45,
     "deep_requested": 45,
@@ -28,36 +28,36 @@
   },
   "data_quality": "GOOD",
   "execution_enabled": false,
-  "generated_at": "2026-09-21T11:55:10.916541+08:00",
+  "generated_at": "2026-09-21T12:00:10.970252+08:00",
   "history": {
     "comparable_reason": "COMPARABLE_GOOD",
     "coverage_start": "2026-09-21T09:15:10+08:00",
     "current_run_comparable": true,
-    "event_count_current_run": 7,
+    "event_count_current_run": 0,
     "event_count_session": 348,
-    "previous_comparable_run_id": "10932b0bd629feab34068348e13b0807",
+    "previous_comparable_run_id": "3eaa0015eb404dfd1a73badbb31276cd",
     "schema_version": "SCANNER_HISTORY_V1"
   },
   "market_state": {
-    "advance_ratio": 0.485714,
-    "advances": 510,
+    "advance_ratio": 0.48381,
+    "advances": 508,
     "breadth_state": "BALANCED",
-    "declines": 446,
-    "equal_weight_relative_to_taiex_pct": -0.541181,
-    "equal_weight_return_pct": 0.518819,
+    "declines": 441,
+    "equal_weight_relative_to_taiex_pct": -0.565286,
+    "equal_weight_return_pct": 0.514714,
     "market_breadth_divergence": {
       "rule": "TAIEX_LEADS<=-0.5pct; EQUAL_WEIGHT_LEADS>=0.5pct; otherwise ALIGNED",
       "rule_version": "MARKET_BREADTH_DIVERGENCE_V1",
       "state": "TAIEX_LEADS",
-      "value_pct": -0.541181
+      "value_pct": -0.565286
     },
     "relative_strength_label": "UNDERPERFORM",
-    "taiex_change_pct": 1.06,
-    "unchanged": 94,
+    "taiex_change_pct": 1.08,
+    "unchanged": 101,
     "valid_return_count": 1050
   },
   "mode": "TEST/SHADOW",
-  "published_at": "2026-09-21T11:57:54.608568+08:00",
+  "published_at": "2026-09-21T12:03:17.053561+08:00",
   "read_only": true,
   "schema_version": "TRADINGAI_TSE_COMMONSTOCK_SCANNER_PUBLIC_V1",
   "source": "FUGLE_MARKETDATA_V1",
@@ -66,7 +66,6 @@
     "6770",
     "2892",
     "3045",
-    "2605",
     "3605",
     "2409",
     "6706",
@@ -77,7 +76,8 @@
     "2337",
     "2303",
     "6257",
-    "2481"
+    "2481",
+    "2605"
   ],
   "universe": "TSE_COMMONSTOCK"
 }
