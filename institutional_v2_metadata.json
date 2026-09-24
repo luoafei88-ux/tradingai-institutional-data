@@ -1,19 +1,19 @@
-{
-  "latest_commit_sha": "UNKNOWN",
-  "as_of": "2026-09-24",
-  "generated_at": "2026-09-24T08:31:00.262575+00:00",
-  "rows": 1323,
-  "data_quality": "GOOD",
-  "stale": false,
-  "duplicate_count": 0,
-  "mixed_snapshot_count": 0,
-  "calculation_version": "institutional_features_v2",
-  "csv_raw_path": "institutional_scanner_features_v2.csv",
-  "derived_field_definitions": {
-    "inst_net_pct_volume_5d": "sum(inst_net_shares_5d) / sum(market_traded_volume_5d) * 100",
-    "inst_net_pct_turnover_5d": "sum(daily_inst_flow_amount_5d) / sum(market_traded_value_5d) * 100",
-    "inst_Nd_avg_buy_cost": "positive daily net-flow weighted average price; not institutional book cost",
-    "flow_price_alignment_Nd": "SHADOW sign comparison of N-session institutional net flow and close return",
-    "institutional_flow_grade": "INSTITUTIONAL_FLOW_GRADE_V1: TSE common-stock only; validated 5D/20D flow direction, common-stock amount percentile, net-turnover participation and component reconciliation"
-  }
+﻿{
+    "latest_commit_sha":  "77108ca81bb4451e186f6554991f3ad038d57bfe",
+    "as_of":  "2026-09-24",
+    "generated_at":  "2026-09-24T08:31:00.262575+00:00",
+    "rows":  1323,
+    "data_quality":  "GOOD",
+    "stale":  false,
+    "duplicate_count":  0,
+    "mixed_snapshot_count":  0,
+    "calculation_version":  "institutional_features_v2",
+    "csv_raw_path":  "institutional_scanner_features_v2.csv",
+    "derived_field_definitions":  {
+                                      "inst_net_pct_volume_5d":  "sum(inst_net_shares_5d) / sum(market_traded_volume_5d) * 100",
+                                      "inst_net_pct_turnover_5d":  "sum(daily_inst_flow_amount_5d) / sum(market_traded_value_5d) * 100",
+                                      "inst_Nd_avg_buy_cost":  "positive daily net-flow weighted average price; not institutional book cost",
+                                      "flow_price_alignment_Nd":  "SHADOW sign comparison of N-session institutional net flow and close return",
+                                      "institutional_flow_grade":  "INSTITUTIONAL_FLOW_GRADE_V1: TSE common-stock only; validated 5D/20D flow direction, common-stock amount percentile, net-turnover participation and component reconciliation"
+                                  }
 }
