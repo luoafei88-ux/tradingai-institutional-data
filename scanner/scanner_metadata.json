@@ -1,43 +1,43 @@
 {
-  "as_of": "2026-09-30T11:55:10+08:00",
-  "completed_at": "2026-09-30T11:57:44.903453+08:00",
+  "as_of": "2026-09-30T12:00:10+08:00",
+  "completed_at": "2026-09-30T12:02:54.946773+08:00",
   "data_quality": "GOOD",
   "deep_data_quality": "DEGRADED",
-  "deep_packet_success": 44,
+  "deep_packet_success": 45,
   "deep_requested": 45,
-  "deep_verified_k5_count": 27,
+  "deep_verified_k5_count": 28,
   "duplicate_stock_id": 0,
   "etf_included": false,
-  "event_count_current_run": 5,
+  "event_count_current_run": 9,
   "execution_enabled": false,
-  "failed_count": 4,
+  "failed_count": 2,
   "files": {
     "full_market_scanner.csv": {
-      "bytes": 137343,
-      "sha256": "79dfa0165766c9a9aaf9ab3975b2e04a58112bad0d57af9efe493b54ed47787c"
+      "bytes": 137622,
+      "sha256": "1fbb00b5776b3a3dea8730eb8af50058b6a3a5bcb8330ebb1c5f734d250db4ed"
     },
     "market_state.json": {
-      "bytes": 2287,
-      "sha256": "cfa74163313e5dae87f147df8653b803c229cc807800bb118ab6a10dddd4cbf0"
+      "bytes": 2286,
+      "sha256": "ee8592d474d39c211698161ff2bddb66bec2a5cf17a91b6740d283c0352d8c7d"
     },
     "sector_radar.csv": {
-      "bytes": 11083,
-      "sha256": "58ea41955555e0927a47f73e6b6cbb4f311c5d12b57cf7995933c7d429cff6a2"
+      "bytes": 11398,
+      "sha256": "1d97fe7813d936b7861ecbd995f4a7a55df69c3caa33a111535ad377810b3db9"
     },
     "signal_events.csv": {
-      "bytes": 159288,
-      "sha256": "de53e9e950ad9a32c380e648e0e37c5ac0205a8bcf446e3e0c1ce004228659fc"
+      "bytes": 162745,
+      "sha256": "ace72e30b459bb3bd0cfd8a70fb860e6acefccbf3cbb9b55f289e48cf9965ec1"
     },
     "top15_deep_scan.csv": {
-      "bytes": 12709,
-      "sha256": "3d72a356bcdf52bb4a3299a4e4efc47a52ffedd2ceda787685afa1bd53ff4f66"
+      "bytes": 12796,
+      "sha256": "b92487678ab2760154cf7093d4611290ae90dccf922f9e8b48e62b5fe807c12c"
     },
     "top30_candidates.csv": {
-      "bytes": 13088,
-      "sha256": "6fa57cc776257ff45ab35bbf87ab0571e1b387b95709745c377c6118236401d7"
+      "bytes": 13324,
+      "sha256": "5f60bff3e16ae39cce395eafa1c105dfb332f6ef87577604bdf3e3db112d50d4"
     }
   },
-  "generated_at": "2026-09-30T11:55:10.690323+08:00",
+  "generated_at": "2026-09-30T12:00:10.796224+08:00",
   "history_comparable": true,
   "history_comparable_reason": "COMPARABLE_GOOD",
   "history_coverage_start": "2026-09-30T09:05:10+08:00",
@@ -47,23 +47,23 @@
   "missing_required_value_count": 0,
   "mixed_snapshot": 0,
   "otc_included": false,
-  "previous_comparable_run_id": "ca44afce3c3a81ad75c6f09636266703",
+  "previous_comparable_run_id": "6a7c2c607bb8ef31bfdca6323a401f68",
   "processed_count": 1056,
-  "published_at": "2026-09-30T11:57:55.138868+08:00",
+  "published_at": "2026-09-30T12:03:04.562435+08:00",
   "publisher_version": "full_market_publish_v2",
   "read_only": true,
-  "row_count": 1052,
-  "run_id": "6a7c2c607bb8ef31bfdca6323a401f68",
+  "row_count": 1054,
+  "run_id": "e9a090ce7d3890832a1406ff8eef691d",
   "schema_version": "TRADINGAI_TSE_COMMONSTOCK_SCANNER_PUBLIC_V1",
   "sector_count": 36,
-  "signal_event_count": 415,
+  "signal_event_count": 424,
   "source": "FUGLE_MARKETDATA_V1",
-  "source_scan_sha256": "ab324f4f242a8900c23989b9dba6ab54747bafe20dee0142eca33db1f9efdd3e",
+  "source_scan_sha256": "3f650c78e61799c77d0b20532c7015ecfd11857fede4b84e2869ddeec50c7531",
   "stale_count": 0,
-  "success_count": 1052,
+  "success_count": 1054,
   "top15_deep_count": 14,
   "top15_shortfall": 1,
   "top30_count": 30,
   "universe": "TSE_COMMONSTOCK",
-  "universe_count": 1052
+  "universe_count": 1054
 }
