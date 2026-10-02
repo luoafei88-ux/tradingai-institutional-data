@@ -1,18 +1,18 @@
 {
-  "as_of": "2026-10-02T09:35:10+08:00",
-  "completed_at": "2026-10-02T09:38:03.155676+08:00",
+  "as_of": "2026-10-02T09:40:10+08:00",
+  "completed_at": "2026-10-02T09:42:58.872353+08:00",
   "counts": {
     "deep_packet_success": 45,
     "deep_requested": 45,
     "deep_rows_rejected_by_quality": 0,
     "deep_verified_k5": 22,
     "sector_rows": 36,
-    "signal_event_rows": 124,
-    "snapshot_excluded_rows": 27,
+    "signal_event_rows": 139,
+    "snapshot_excluded_rows": 21,
     "snapshot_input_rows": 1055,
     "top15_deep_rows": 15,
     "top30_rows": 30,
-    "tse_commonstock_rows": 1028
+    "tse_commonstock_rows": 1034
   },
   "coverage": {
     "deep_data_quality": "DEGRADED",
@@ -28,56 +28,56 @@
   },
   "data_quality": "GOOD",
   "execution_enabled": false,
-  "generated_at": "2026-10-02T09:35:10.376779+08:00",
+  "generated_at": "2026-10-02T09:40:10.254755+08:00",
   "history": {
     "comparable_reason": "COMPARABLE_GOOD",
     "coverage_start": "2026-10-02T09:05:10+08:00",
     "current_run_comparable": true,
-    "event_count_current_run": 26,
-    "event_count_session": 124,
-    "previous_comparable_run_id": "1f5386985b5df1e5559e1c4a44f98a76",
+    "event_count_current_run": 15,
+    "event_count_session": 139,
+    "previous_comparable_run_id": "ae8cc91e367d73938d13d76c71f537ee",
     "schema_version": "SCANNER_HISTORY_V1"
   },
   "market_state": {
-    "advance_ratio": 0.358949,
-    "advances": 369,
+    "advance_ratio": 0.332689,
+    "advances": 344,
     "breadth_state": "BROAD_NEGATIVE",
-    "declines": 529,
-    "equal_weight_relative_to_taiex_pct": 0.396362,
-    "equal_weight_return_pct": 0.136362,
+    "declines": 569,
+    "equal_weight_relative_to_taiex_pct": 0.222485,
+    "equal_weight_return_pct": 0.072485,
     "market_breadth_divergence": {
       "rule": "TAIEX_LEADS<=-0.5pct; EQUAL_WEIGHT_LEADS>=0.5pct; otherwise ALIGNED",
       "rule_version": "MARKET_BREADTH_DIVERGENCE_V1",
       "state": "ALIGNED",
-      "value_pct": 0.396362
+      "value_pct": 0.222485
     },
     "relative_strength_label": "INLINE",
-    "taiex_change_pct": -0.26,
-    "unchanged": 130,
-    "valid_return_count": 1028
+    "taiex_change_pct": -0.15,
+    "unchanged": 121,
+    "valid_return_count": 1034
   },
   "mode": "TEST/SHADOW",
-  "published_at": "2026-10-02T09:38:19.290470+08:00",
+  "published_at": "2026-10-02T09:43:22.492957+08:00",
   "read_only": true,
   "schema_version": "TRADINGAI_TSE_COMMONSTOCK_SCANNER_PUBLIC_V1",
   "source": "FUGLE_MARKETDATA_V1",
   "source_scan_status": "GOOD",
   "top15_symbols": [
     "8150",
+    "2412",
     "2344",
-    "3714",
+    "2340",
+    "3042",
     "1301",
     "3231",
-    "3702",
     "1314",
     "6834",
     "6505",
-    "6456",
-    "2466",
-    "3036",
+    "3702",
     "2409",
     "1709",
-    "1727"
+    "1727",
+    "3036"
   ],
   "universe": "TSE_COMMONSTOCK"
 }
