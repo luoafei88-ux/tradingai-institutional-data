@@ -1,78 +1,78 @@
 {
   "artifact_root": "scanner",
   "artifact_schema_version": "TRADINGAI_TSE_COMMONSTOCK_SCANNER_PUBLIC_V1",
-  "as_of": "2026-10-14T11:10:10+08:00",
-  "bundle_id": "959e2cd0f77391de3a8247eaf0f09975da0d2b5dd58eb3ff8f5ea6a6888f954f",
-  "completed_at": "2026-10-14T11:13:08.142501+08:00",
+  "as_of": "2026-10-14T11:15:10+08:00",
+  "bundle_id": "022e55c341cce9d693ffacd6bb9bd907cc858eabd6df0e5ec72f12a80661496c",
+  "completed_at": "2026-10-14T11:18:13.209886+08:00",
   "counts": {
-    "failed": 19,
+    "failed": 17,
     "processed": 1056,
     "sector": 36,
-    "signal_events": 407,
-    "success": 1037,
+    "signal_events": 415,
+    "success": 1039,
     "top15_deep": 15,
     "top30": 30,
-    "universe": 1037
+    "universe": 1039
   },
-  "data_commit_sha": "fae1c7b63353e4a0ac29111bea296212a701dbec",
+  "data_commit_sha": "31c5f833df6fd2a0d9f9488e1e0f06ed38a49bed",
   "data_quality": "GOOD",
   "execution_enabled": false,
   "files": {
     "full_market_scanner.csv": {
-      "bytes": 135298,
+      "bytes": 135565,
       "path": "scanner/full_market_scanner.csv",
-      "rows": 1037,
+      "rows": 1039,
       "schema_version": "TRADINGAI_TSE_COMMONSTOCK_SCANNER_PUBLIC_V1",
-      "sha256": "84d02282b899de4f2e0b85748108427d484a29c075727bbfdc9a2423fb161f9e"
+      "sha256": "8d6172a33def67b6c0e93cebb06517f02b90b9636340e3d70adfaee02726ac51"
     },
     "market_state.json": {
-      "bytes": 2298,
+      "bytes": 2299,
       "path": "scanner/market_state.json",
       "rows": 1,
       "schema_version": "TRADINGAI_TSE_COMMONSTOCK_SCANNER_PUBLIC_V1",
-      "sha256": "40f7a265bfbcc361495a7c9f38c8bad94056d6e4e00b45013c22c368049de6cd"
+      "sha256": "695fb0f9ce2bcb72f382a5118069fa5f2b0c023a3cee157129f18fa54e99f7e5"
     },
     "scanner_metadata.json": {
       "bytes": 2335,
       "path": "scanner/scanner_metadata.json",
       "rows": 1,
       "schema_version": "TRADINGAI_TSE_COMMONSTOCK_SCANNER_PUBLIC_V1",
-      "sha256": "21b6591d6d0f225272d1fa0fb78f269d7a4d64de57d06e9a4b7226c4250d869a"
+      "sha256": "10b7f3d21c29f0dc24893ba54e73eb8324f8c96dd9beaafff6d3dc55fe9d89d6"
     },
     "sector_radar.csv": {
-      "bytes": 12177,
+      "bytes": 12076,
       "path": "scanner/sector_radar.csv",
       "rows": 36,
       "schema_version": "TRADINGAI_TSE_COMMONSTOCK_SCANNER_PUBLIC_V1",
-      "sha256": "ac234dd6fe8f6bef246ecb0282c8dc44d15ec07228a73eef7f869647cdec0db7"
+      "sha256": "08a35b5527751a81966801ad0bcd13babff7930cf493b087484555b0b104e1ab"
     },
     "signal_events.csv": {
-      "bytes": 156369,
+      "bytes": 159411,
       "path": "scanner/signal_events.csv",
-      "rows": 407,
+      "rows": 415,
       "schema_version": "TRADINGAI_TSE_COMMONSTOCK_SCANNER_PUBLIC_V1",
-      "sha256": "7f02edd53a5379489282385b64437737c54b985022480d1bbc4329bec4fbc762"
+      "sha256": "ca7ccebd74e9498014507209d52b061fcf898f0ace2dad691c2374e016e78685"
     },
     "top15_deep_scan.csv": {
-      "bytes": 13484,
+      "bytes": 13573,
       "path": "scanner/top15_deep_scan.csv",
       "rows": 15,
       "schema_version": "TRADINGAI_TSE_COMMONSTOCK_SCANNER_PUBLIC_V1",
-      "sha256": "f46c10bd145bff2a18851c22ed7eddb5f496d6bbeade20f3f74edee555484986"
+      "sha256": "2b4787af511a5dd19807903d0e1b88db42c9b0417f1a964186783c7e8ffc6d9e"
     },
     "top30_candidates.csv": {
-      "bytes": 12663,
+      "bytes": 12616,
       "path": "scanner/top30_candidates.csv",
       "rows": 30,
       "schema_version": "TRADINGAI_TSE_COMMONSTOCK_SCANNER_PUBLIC_V1",
-      "sha256": "ef81921f60641c60ba75b620373f783f1538b4a7021efe2c2b7b1131029ab07f"
+      "sha256": "a57d4d2af4c62d81a79ccd39fb2d26c1747680780cba8bcf3d7b5c7b38ce63d7"
     }
   },
-  "generated_at": "2026-10-14T11:10:10.989994+08:00",
+  "generated_at": "2026-10-14T11:15:10.468347+08:00",
   "manifest_schema_version": "TRADINGAI_TSE_COMMONSTOCK_SCANNER_MANIFEST_V1",
   "market_date": "2026-10-14",
-  "previous_data_commit_sha": "84b1ea15601da010482d994e855e858caed78fb9",
-  "published_at": "2026-10-14T11:13:23.120088+08:00",
+  "previous_data_commit_sha": "fae1c7b63353e4a0ac29111bea296212a701dbec",
+  "published_at": "2026-10-14T11:18:24.694369+08:00",
   "publisher_version": "full_market_publish_v2",
   "quality": {
     "deep_data_quality": "DEGRADED",
@@ -87,7 +87,7 @@
   },
   "read_only": true,
   "repository": "luoafei88-ux/tradingai-institutional-data",
-  "run_id": "7563973732131995a8f9c68e1324bc7e",
+  "run_id": "b9d54774367d4f451274775a7731e601",
   "source": "FUGLE_MARKETDATA_V1",
   "universe": "TSE_COMMONSTOCK"
 }
